@@ -14,9 +14,9 @@ public class LicensePlateNumber {
         String licensePlateNumber = sc.nextLine();
 
         if(validLicensePlateNumber(licensePlateNumber)){
-            System.out.println("Haan bhai jaa sakta hai aagay nhi kaatenge chalan");
+            System.out.println("Valid license plate number");
         }else{
-            System.out.println("Bkl nakli plate number leke ghuum rha hai kaatu chalan tera");
+            System.out.println("Invalid license plate number");
         }
 
         sc.close();
